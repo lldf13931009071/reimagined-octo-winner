@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>曲院风荷 - 西湖十景</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+        }
+        
+        .spot-detail {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+        }
+        
+        .spot-detail h1 {
+            color: #2c5aa0;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .spot-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        
+        .spot-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .spot-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .spot-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .spot-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← 返回主页</a>
+        
+        <div class="spot-navigation">
+            <h3>西湖十景</h3>
+            <div class="nav-links">
+                <a href="sudichunxiao.html">苏堤春晓</a>
+                <a href="quyuanfenghe.html" class="current-spot">曲院风荷</a>
+                <a href="pinghuqiuyue.html">平湖秋月</a>
+                <a href="duanqiaocanxue.html">断桥残雪</a>
+                <a href="huagangguanyu.html">花港观鱼</a>
+                <a href="liulangwenying.html">柳浪闻莺</a>
+                <a href="santanyinyue.html">三潭印月</a>
+                <a href="shuangfengchayun.html">双峰插云</a>
+                <a href="leifengxizhao.html">雷峰夕照</a>
+                <a href="nanpingwanzhong.html">南屏晚钟</a>
+            </div>
+        </div>
+        
+        <div class="spot-detail">
+            <h1>曲院风荷</h1>
+            
+            <div class="spot-content">
+                <div class="spot-text">
+                    <p>曲院风荷位于西湖西侧，岳飞庙前面，是西湖十景中唯一以荷花为主题的景区。南宋时，这里有一家酿造官酒的作坊，取金沙涧的溪水造曲酿酒，称为"曲院"。院内种有很多荷花，花开时节香风四溢，故名"曲院风荷"。</p>
+                    
+                    <p>现在的曲院风荷公园占地约14公顷，有岳湖、竹素园、风荷、曲院、滨湖密林等5个景区。园内亭、台、楼、榭布局典雅，夏季荷花盛开时，红白相间，青荷盖绿水，芙蓉披红鲜，景色十分迷人。</p>
+                    
+                    <p>公园内最著名的是风荷区，这里种植了上百个品种的荷花，有红莲、白莲、重台莲、洒金莲、并蒂莲等。每年6月至9月是荷花盛开的季节，届时园内荷花竞相开放，香气袭人，吸引无数游客前来观赏。</p>
+                    
+                    <p>曲院风荷不仅以荷花著称，园内的园林建筑也很有特色。湛碧楼、风微亭、玉带桥等建筑与荷花相映成趣，构成了一幅美丽的江南水乡画卷。傍晚时分，夕阳西下，荷花在余晖中更显娇艳，是摄影爱好者的绝佳取景地。</p>
+                    
+                    <p>这里还是杭州著名的避暑胜地，夏季荷塘边的凉亭里常常坐满了纳凉的市民和游客，享受着荷风送来的清凉。</p>
+                </div>
+                
+                <div class="spot-images">
+                    <img src="曲院风荷1.jfif" alt="曲院风荷景色1" class="spot-image">
+                    <img src="曲院风荷2.jfif" alt="曲院风荷景色2" class="spot-image">
+                    <img src="曲院风荷3.jpg" alt="曲院风荷景色3" class="spot-image">
+                    <img src="曲院风荷4.jpg" alt="曲院风荷景色4" class="spot-image">
+                </div>
+            </div>
+        </div>
+        
+        <div class="next-page-button">
+            <a href="pinghuqiuyue.html" class="next-button">下一页：平湖秋月 →</a>
+        </div>
+    </div>
+</body>
+</html>

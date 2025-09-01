@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>平湖秋月 - 西湖十景</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+        }
+        
+        .spot-detail {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+        }
+        
+        .spot-detail h1 {
+            color: #2c5aa0;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .spot-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        
+        .spot-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .spot-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .spot-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .spot-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← 返回主页</a>
+        
+        <div class="spot-navigation">
+            <h3>西湖十景</h3>
+            <div class="nav-links">
+                <a href="sudichunxiao.html">苏堤春晓</a>
+                <a href="quyuanfenghe.html">曲院风荷</a>
+                <a href="pinghuqiuyue.html" class="current-spot">平湖秋月</a>
+                <a href="duanqiaocanxue.html">断桥残雪</a>
+                <a href="huagangguanyu.html">花港观鱼</a>
+                <a href="liulangwenying.html">柳浪闻莺</a>
+                <a href="santanyinyue.html">三潭印月</a>
+                <a href="shuangfengchayun.html">双峰插云</a>
+                <a href="leifengxizhao.html">雷峰夕照</a>
+                <a href="nanpingwanzhong.html">南屏晚钟</a>
+            </div>
+        </div>
+        
+        <div class="spot-detail">
+            <h1>平湖秋月</h1>
+            
+            <div class="spot-content">
+                <div class="spot-text">
+                    <p>平湖秋月位于白堤西端，孤山南麓，濒临外西湖，是西湖十景中观赏秋月的最佳地点。这里视野开阔，湖面平静如镜，秋季月光皎洁，倒映湖中，形成"一色湖光万顷秋"的美丽景色。</p>
+                    
+                    <p>平湖秋月景区包括御书楼、四面厅、八角亭、湖天一碧楼等建筑。这些建筑巧妙地借景西湖，构成了一个完美的赏月空间。御书楼内悬挂着康熙皇帝御题的"平湖秋月"匾额，为这里增添了浓厚的历史文化气息。</p>
+                    
+                    <p>中秋之夜是平湖秋月最迷人的时刻。皓月当空，湖面如镜，月光洒在湖面上，银光闪闪。远处山色朦胧，近处亭台楼阁倒映水中，构成了一幅绝美的水墨画。此时在此赏月，最能体会"但愿人长久，千里共婵娟"的意境。</p>
+                    
+                    <p>除了赏月，平湖秋月也是观赏西湖日落的绝佳地点。傍晚时分，夕阳西下，湖面被染成金黄色，远山如黛，游船点点，景色十分壮观。这里的茶座也很有名，坐在湖边，品着龙井茶，欣赏湖光山色，是杭州人最喜爱的休闲方式之一。</p>
+                    
+                    <p>平湖秋月不仅是一个观景平台，更是一个文化空间。这里经常举办诗词朗诵、书画展览等活动，传承着杭州深厚的文化底蕴。</p>
+                </div>
+                
+                <div class="spot-images">
+                    <img src="平湖秋月1.jfif" alt="平湖秋月景色1" class="spot-image">
+                    <img src="平湖秋月2.jfif" alt="平湖秋月景色2" class="spot-image">
+                    <img src="平湖秋月3.jfif" alt="平湖秋月景色3" class="spot-image">
+                </div>
+            </div>
+        </div>
+        
+        <div class="next-page-button">
+            <a href="duanqiaocanxue.html" class="next-button">下一页：断桥残雪 →</a>
+        </div>
+    </div>
+</body>
+</html>

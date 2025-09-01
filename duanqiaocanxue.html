@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>断桥残雪 - 西湖十景</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+        }
+        
+        .spot-detail {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+        }
+        
+        .spot-detail h1 {
+            color: #2c5aa0;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .spot-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        
+        .spot-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .spot-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .spot-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .spot-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← 返回主页</a>
+        
+        <div class="spot-navigation">
+            <h3>西湖十景</h3>
+            <div class="nav-links">
+                <a href="sudichunxiao.html">苏堤春晓</a>
+                <a href="quyuanfenghe.html">曲院风荷</a>
+                <a href="pinghuqiuyue.html">平湖秋月</a>
+                <a href="duanqiaocanxue.html" class="current-spot">断桥残雪</a>
+                <a href="huagangguanyu.html">花港观鱼</a>
+                <a href="liulangwenying.html">柳浪闻莺</a>
+                <a href="santanyinyue.html">三潭印月</a>
+                <a href="shuangfengchayun.html">双峰插云</a>
+                <a href="leifengxizhao.html">雷峰夕照</a>
+                <a href="nanpingwanzhong.html">南屏晚钟</a>
+            </div>
+        </div>
+        
+        <div class="spot-detail">
+            <h1>断桥残雪</h1>
+            
+            <div class="spot-content">
+                <div class="spot-text">
+                    <p>断桥残雪是西湖十景中最富浪漫色彩的景观，位于白堤东端，是民间故事《白蛇传》中白娘子与许仙相遇的地方。桥名"断桥"并非指桥梁断裂，而是因为冬季雪后，桥阳面冰雪消融，桥阴面仍然白雪皑皑，从远处看仿佛桥断了一般，故称"断桥残雪"。</p>
+                    
+                    <p>断桥始建于唐朝，现存桥梁为1921年重建，是一座单孔石拱桥，桥长8.8米，宽8.6米。桥堍有康熙御题"断桥残雪"碑亭，亭内石碑上刻着康熙皇帝的亲笔题字。</p>
+                    
+                    <p>冬季雪后是观赏断桥残雪的最佳时机。大雪初霁，站在宝石山上眺望，白堤如一条银链，断桥阳面积雪融化，露出青石桥面，阴面却依然白雪覆盖，远远望去仿佛桥断了一般，形成了独特的"断桥"景象。桥两侧的湖面上漂浮着薄冰，在阳光下闪闪发光，与远处的保俶塔、近处的游船构成了一幅绝美的冬日画卷。</p>
+                    
+                    <p>除了冬季雪景，断桥在其他季节也同样美丽。春季桥边桃花盛开，柳丝吐绿；夏季荷花满塘，清香四溢；秋季天高云淡，湖光山色。但最让人向往的还是那个浪漫的传说——白娘子与许仙在断桥相遇，借伞定情，开始了那段凄美的爱情故事。</p>
+                    
+                    <p>如今的断桥不仅是西湖的重要景点，更是杭州浪漫文化的象征。无数情侣来到这里，重温那个美丽的传说，许下爱的誓言。</p>
+                </div>
+                
+                <div class="spot-images">
+                    <img src="断桥残雪1.jfif" alt="断桥残雪景色1" class="spot-image">
+                    <img src="断桥残雪2.webp" alt="断桥残雪景色2" class="spot-image">
+                    <img src="断桥残雪3.jpeg" alt="断桥残雪景色3" class="spot-image">
+                </div>
+            </div>
+        </div>
+        
+        <div class="next-page-button">
+            <a href="huagangguanyu.html" class="next-button">下一页：花港观鱼 →</a>
+        </div>
+    </div>
+</body>
+</html>

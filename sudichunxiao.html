@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>苏堤春晓 - 西湖十景</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+        }
+        
+        .spot-detail {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+        }
+        
+        .spot-detail h1 {
+            color: #2c5aa0;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .spot-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        
+        .spot-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .spot-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .spot-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .spot-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← 返回主页</a>
+        
+        <div class="spot-navigation">
+            <h3>西湖十景</h3>
+            <div class="nav-links">
+                <a href="sudichunxiao.html" class="current-spot">苏堤春晓</a>
+                <a href="quyuanfenghe.html">曲院风荷</a>
+                <a href="pinghuqiuyue.html">平湖秋月</a>
+                <a href="duanqiaocanxue.html">断桥残雪</a>
+                <a href="huagangguanyu.html">花港观鱼</a>
+                <a href="liulangwenying.html">柳浪闻莺</a>
+                <a href="santanyinyue.html">三潭印月</a>
+                <a href="shuangfengchayun.html">双峰插云</a>
+                <a href="leifengxizhao.html">雷峰夕照</a>
+                <a href="nanpingwanzhong.html">南屏晚钟</a>
+            </div>
+        </div>
+        
+        <div class="spot-detail">
+            <h1>苏堤春晓</h1>
+            
+            <div class="spot-content">
+                <div class="spot-text">
+                    <p>苏堤春晓是西湖十景之首，位于西湖西部，是一条贯穿西湖南北的长堤，全长2.8公里。北宋元祐五年(1090年)，诗人苏轼任杭州知州时，疏浚西湖，利用浚挖的淤泥构筑并历经后世演变而形成的。</p>
+                    
+                    <p>苏堤由南向北有映波、锁澜、望山、压堤、东浦、跨虹六座石拱桥。堤上桃柳成行，芳草如茵。清晨，湖面薄雾轻笼，堤上桃花盛开，柳丝吐绿，远山如黛，近水含烟，景色十分迷人。</p>
+                    
+                    <p>春季是苏堤最美的季节，堤上桃花竞相开放，红的、粉的、白的，与嫩绿的柳叶相映成趣。漫步堤上，湖风拂面，花香扑鼻，令人心旷神怡。南宋时，这里被列为"西湖十景"之首，清代康熙皇帝南巡时，曾题"苏堤春晓"碑文，现碑亭仍在压堤桥南。</p>
+                    
+                    <p>苏堤不仅是一条交通要道，更是一条艺术长廊。堤上的六座桥各具特色，站在桥上眺望西湖，景色各异。特别是春季清晨，湖面晨雾朦胧，堤上行人稀少，只有鸟语花香相伴，仿佛置身仙境。</p>
+                </div>
+                
+                <div class="spot-images">
+                    <img src="苏堤春晓1.webp" alt="苏堤春晓景色1" class="spot-image">
+                    <img src="苏堤春晓2.webp" alt="苏堤春晓景色2" class="spot-image">
+                    <img src="苏堤春晓3.webp" alt="苏堤春晓景色3" class="spot-image">
+                </div>
+            </div>
+        </div>
+        
+        <div class="next-page-button">
+            <a href="quyuanfenghe.html" class="next-button">下一页：曲院风荷 →</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>双峰插云 - 西湖十景</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+        }
+        
+        .spot-detail {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+        }
+        
+        .spot-detail h1 {
+            color: #2c5aa0;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .spot-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        
+        .spot-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .spot-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .spot-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .spot-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← 返回主页</a>
+        
+        <div class="spot-navigation">
+            <h3>西湖十景</h3>
+            <div class="nav-links">
+                <a href="sudichunxiao.html">苏堤春晓</a>
+                <a href="quyuanfenghe.html">曲院风荷</a>
+                <a href="pinghuqiuyue.html">平湖秋月</a>
+                <a href="duanqiaocanxue.html">断桥残雪</a>
+                <a href="huagangguanyu.html">花港观鱼</a>
+                <a href="liulangwenying.html">柳浪闻莺</a>
+                <a href="santanyinyue.html">三潭印月</a>
+                <a href="shuangfengchayun.html" class="current-spot">双峰插云</a>
+                <a href="leifengxizhao.html">雷峰夕照</a>
+                <a href="nanpingwanzhong.html">南屏晚钟</a>
+            </div>
+        </div>
+        
+        <div class="spot-detail">
+            <h1>双峰插云</h1>
+            
+            <div class="spot-content">
+                <div class="spot-text">
+                    <p>双峰插云是西湖十景中唯一以山景为主题的景观，指的是西湖西北的北高峰和西湖西南的南高峰。这两座山峰海拔都在300米左右，虽然不算很高，但因地处平原，显得格外挺拔。当山间云雾缭绕时，双峰仿佛插入云端，故称"双峰插云"。</p>
+                    
+                    <p>北高峰海拔314米，是西湖周边的最高峰，山上有天下第一财神庙——灵顺寺，还有毛泽东诗碑亭等景点。南高峰海拔257米，山上有烟霞洞、水乐洞等溶洞景观。两峰遥相对峙，形成了西湖独特的山水格局。</p>
+                    
+                    <p>观赏双峰插云的最佳时机是雨后初晴或清晨时分。此时山间云雾未散，双峰在云雾中若隐若现，仿佛仙境一般。站在西湖边，远眺双峰插入云端的壮观景象，最能体会"山色空蒙雨亦奇"的意境。</p>
+                    
+                    <p>除了观赏云雾景观，攀登双峰也是很好的体验。北高峰有缆车可达山顶，也可以徒步登山，沿途可以欣赏到西湖全景。南高峰的登山路线较为陡峭，但山顶视野开阔，可以俯瞰整个西湖和杭州城区。</p>
+                    
+                    <p>双峰插云不仅是一处自然景观，更蕴含着深厚的文化内涵。历代文人墨客在此留下了许多诗词佳作，如苏轼的"欲把西湖比西子，淡妆浓抹总相宜"就是在北高峰上所作。这里还是佛教文化的重要场所，灵顺寺、法喜寺等古刹香火鼎盛。</p>
+                </div>
+                
+                <div class="spot-images">
+                    <img src="双峰插云1.jpeg" alt="双峰插云景色1" class="spot-image">
+                    <img src="双峰插云2.webp" alt="双峰插云景色2" class="spot-image">
+                    <img src="双峰插云3.jfif" alt="双峰插云景色3" class="spot-image">
+                </div>
+            </div>
+        </div>
+        
+        <div class="next-page-button">
+            <a href="leifengxizhao.html" class="next-button">下一页：雷峰夕照 →</a>
+        </div>
+    </div>
+</body>
+</html>

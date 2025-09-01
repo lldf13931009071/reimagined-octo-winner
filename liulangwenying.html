@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>柳浪闻莺 - 西湖十景</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+        }
+        
+        .spot-detail {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+        }
+        
+        .spot-detail h1 {
+            color: #2c5aa0;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .spot-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        
+        .spot-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .spot-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .spot-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .spot-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← 返回主页</a>
+        
+        <div class="spot-navigation">
+            <h3>西湖十景</h3>
+            <div class="nav-links">
+                <a href="sudichunxiao.html">苏堤春晓</a>
+                <a href="quyuanfenghe.html">曲院风荷</a>
+                <a href="pinghuqiuyue.html">平湖秋月</a>
+                <a href="duanqiaocanxue.html">断桥残雪</a>
+                <a href="huagangguanyu.html">花港观鱼</a>
+                <a href="liulangwenying.html" class="current-spot">柳浪闻莺</a>
+                <a href="santanyinyue.html">三潭印月</a>
+                <a href="shuangfengchayun.html">双峰插云</a>
+                <a href="leifengxizhao.html">雷峰夕照</a>
+                <a href="nanpingwanzhong.html">南屏晚钟</a>
+            </div>
+        </div>
+        
+        <div class="spot-detail">
+            <h1>柳浪闻莺</h1>
+            
+            <div class="spot-content">
+                <div class="spot-text">
+                    <p>柳浪闻莺位于西湖东南岸，南山路侧，是西湖十景中以柳树和黄莺为主题的公园。南宋时，这里是皇帝的御花园，园内广植柳树，春季柳丝吐绿，随风摇曳，如碧浪翻涌，故名"柳浪"。园中黄莺啼鸣，清脆悦耳，故称"闻莺"。</p>
+                    
+                    <p>柳浪闻莺公园占地21公顷，是杭州最大的公园之一。园内种植了上万株柳树，有垂柳、金丝柳、龙爪柳等多个品种。春季是公园最美的季节，新绿的柳叶如烟如雾，柳丝轻拂水面，形成"柳浪"的壮观景象。</p>
+                    
+                    <p>公园内的黄莺是这里的另一大特色。每年春季，成群结队的黄莺从南方迁徙而来，在柳林中筑巢繁殖。清晨和傍晚，黄莺的啼鸣声此起彼伏，清脆悦耳，与柳浪相映成趣，形成了"柳浪闻莺"的独特景观。</p>
+                    
+                    <p>柳浪闻莺不仅以柳树和黄莺著称，园内的园林景观也十分精美。园中有闻莺馆、友谊园、鸽舍等建筑，还有大片的草坪和花坛。闻莺馆是公园的主要建筑，馆内陈列着关于黄莺和柳树的文化资料，是了解这一景观文化内涵的好去处。</p>
+                    
+                    <p>这里还是市民休闲娱乐的好地方。清晨，很多市民来这里晨练、打太极拳；傍晚，人们在这里散步、聊天、欣赏湖景。公园内的草坪上经常有 families 野餐，孩子们在草地上奔跑嬉戏，充满了生活气息。</p>
+                </div>
+                
+                <div class="spot-images">
+                    <img src="柳浪闻莺1.jfif" alt="柳浪闻莺景色1" class="spot-image">
+                    <img src="柳浪闻莺2.jfif" alt="柳浪闻莺景色2" class="spot-image">
+                    <img src="柳浪闻莺3.jfif" alt="柳浪闻莺景色3" class="spot-image">
+                    <img src="柳浪闻莺4.jfif" alt="柳浪闻莺景色4" class="spot-image">
+                </div>
+            </div>
+        </div>
+        
+        <div class="next-page-button">
+            <a href="santanyinyue.html" class="next-button">下一页：三潭印月 →</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>花港观鱼 - 西湖十景</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+        }
+        
+        .spot-detail {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+        }
+        
+        .spot-detail h1 {
+            color: #2c5aa0;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .spot-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        
+        .spot-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .spot-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .spot-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .spot-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← 返回主页</a>
+        
+        <div class="spot-navigation">
+            <h3>西湖十景</h3>
+            <div class="nav-links">
+                <a href="sudichunxiao.html">苏堤春晓</a>
+                <a href="quyuanfenghe.html">曲院风荷</a>
+                <a href="pinghuqiuyue.html">平湖秋月</a>
+                <a href="duanqiaocanxue.html">断桥残雪</a>
+                <a href="huagangguanyu.html" class="current-spot">花港观鱼</a>
+                <a href="liulangwenying.html">柳浪闻莺</a>
+                <a href="santanyinyue.html">三潭印月</a>
+                <a href="shuangfengchayun.html">双峰插云</a>
+                <a href="leifengxizhao.html">雷峰夕照</a>
+                <a href="nanpingwanzhong.html">南屏晚钟</a>
+            </div>
+        </div>
+        
+        <div class="spot-detail">
+            <h1>花港观鱼</h1>
+            
+            <div class="spot-content">
+                <div class="spot-text">
+                    <p>花港观鱼位于西湖西南角，苏堤南段以西，是以赏花、观鱼为主题的大型公园。南宋时，这里有一处私家花园，因有一条小溪从花家山流经此处注入西湖，故名"花港"。清代康熙皇帝南巡时，在此题"花港观鱼"四字，从此成为西湖十景之一。</p>
+                    
+                    <p>花港观鱼公园占地20公顷，由红鱼池、牡丹园、花港、大草坪、密林等景区组成。红鱼池是公园的核心景点，池中放养着数万尾红鲤鱼，鱼儿成群结队，嬉戏游弋，时而跃出水面，激起阵阵涟漪，十分壮观。</p>
+                    
+                    <p>牡丹园是花港观鱼的另一个亮点，园内种植了上百个品种的牡丹，每年4月至5月是牡丹盛开的季节，届时园内百花争艳，香气袭人。园内的牡丹亭、孔雀园等建筑与花卉相映成趣，构成了一幅美丽的园林画卷。</p>
+                    
+                    <p>花港观鱼不仅以花卉和鱼类著称，园内的园林景观也十分精美。小桥流水、亭台楼阁、假山奇石，处处体现着江南园林的精致与典雅。公园内还有一大片草坪，是市民休闲娱乐的好去处，经常可以看到 families 在这里野餐、放风筝。</p>
+                    
+                    <p>这里还是观鸟的好地方，公园内生态环境良好，吸引了各种鸟类前来栖息。清晨或傍晚，常常可以看到白鹭、夜鹭等水鸟在湖边觅食，为公园增添了几分野趣。</p>
+                </div>
+                
+                <div class="spot-images">
+                    <img src="花巷观鱼1.jfif" alt="花港观鱼景色1" class="spot-image">
+                    <img src="花巷观鱼2.jfif" alt="花港观鱼景色2" class="spot-image">
+                    <img src="花巷观鱼3.jfif" alt="花港观鱼景色3" class="spot-image">
+                </div>
+            </div>
+        </div>
+        
+        <div class="next-page-button">
+            <a href="liulangwenying.html" class="next-button">下一页：柳浪闻莺 →</a>
+        </div>
+    </div>
+</body>
+</html>

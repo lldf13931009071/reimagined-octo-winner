@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三潭印月 - 西湖十景</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+        }
+        
+        .spot-detail {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+        }
+        
+        .spot-detail h1 {
+            color: #2c5aa0;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .spot-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        
+        .spot-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .spot-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .spot-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .spot-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← 返回主页</a>
+        
+        <div class="spot-navigation">
+            <h3>西湖十景</h3>
+            <div class="nav-links">
+                <a href="sudichunxiao.html">苏堤春晓</a>
+                <a href="quyuanfenghe.html">曲院风荷</a>
+                <a href="pinghuqiuyue.html">平湖秋月</a>
+                <a href="duanqiaocanxue.html">断桥残雪</a>
+                <a href="huagangguanyu.html">花港观鱼</a>
+                <a href="liulangwenying.html">柳浪闻莺</a>
+                <a href="santanyinyue.html" class="current-spot">三潭印月</a>
+                <a href="shuangfengchayun.html">双峰插云</a>
+                <a href="leifengxizhao.html">雷峰夕照</a>
+                <a href="nanpingwanzhong.html">南屏晚钟</a>
+            </div>
+        </div>
+        
+        <div class="spot-detail">
+            <h1>三潭印月</h1>
+            
+            <div class="spot-content">
+                <div class="spot-text">
+                    <p>三潭印月是西湖十景中最具诗情画意的景观，位于西湖湖心，是小瀛洲岛上的三座石塔。这三座石塔呈等边三角形分布，每座塔高2米，造型优美，是中空球状，球面有5个圆孔。中秋之夜，在塔内点燃蜡烛，烛光从圆孔中透出，倒映湖中，宛如一个个小月亮，与天上明月相映成趣，故称"三潭印月"。</p>
+                    
+                    <p>三潭印月的历史可以追溯到北宋元祐四年(1089年)，苏轼疏浚西湖时，在湖中最深处立三塔作为标志，禁止在此范围内种植菱藕，以防湖泥淤积。现存石塔为明代天启元年(1621年)重建，清代康熙皇帝南巡时题"三潭印月"四字，从此成为西湖十景之一。</p>
+                    
+                    <p>小瀛洲岛是观赏三潭印月的最佳地点，岛上有开网亭、闲放台、迎翠轩、我心相印亭等建筑。我心相印亭是观赏三潭印月的绝佳位置，站在亭中，可以同时看到三座石塔和它们的倒影，景色十分迷人。</p>
+                    
+                    <p>除了中秋赏月，三潭印月在其他时间也同样美丽。晴天时，三塔倒映在碧绿的湖水中，与周围的山水构成一幅完美的画面；雨天时，湖面烟雨朦胧，三塔若隐若现，更有一种神秘的美感。</p>
+                    
+                    <p>三潭印月不仅是西湖的标志性景观，更是中国传统文化的重要象征。它出现在人民币壹圆纸币的背面，成为全国人民熟悉的形象。这里也是摄影爱好者的天堂，无论什么季节、什么天气，都能拍出令人惊艳的照片。</p>
+                </div>
+                
+                <div class="spot-images">
+                    <img src="三潭映月1.webp" alt="三潭印月景色1" class="spot-image">
+                    <img src="三潭映月2.png" alt="三潭印月景色2" class="spot-image">
+                    <img src="三潭映月4.jpg" alt="三潭印月景色3" class="spot-image">
+                </div>
+            </div>
+        </div>
+        
+        <div class="next-page-button">
+            <a href="shuangfengchayun.html" class="next-button">下一页：双峰插云 →</a>
+        </div>
+    </div>
+</body>
+</html>

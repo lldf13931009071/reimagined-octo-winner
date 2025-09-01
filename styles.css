@@ -1,0 +1,263 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #e6f7ff 0%, #f0f8ff 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 头部样式 */
+.header-image {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.header-image h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+/* 介绍部分样式 */
+.intro {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+}
+
+.intro h2 {
+    color: #2c5aa0;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.location-map {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.location-map h3 {
+    color: #d35400;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.map-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 景点网格样式 */
+.scenic-spots {
+    margin: 40px 0;
+}
+
+.scenic-spots h2 {
+    color: #2c5aa0;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.spot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 20px 0;
+}
+
+.spot-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.spot-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-color: #3498db;
+    text-decoration: none;
+    color: inherit;
+}
+
+.spot-card h3 {
+    color: #2c5aa0;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+.spot-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* 页脚样式 */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* 景点导航样式 */
+.spot-navigation {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.spot-navigation h3 {
+    color: #2c5aa0;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    justify-content: center;
+}
+
+.nav-links a {
+    display: block;
+    padding: 8px 12px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background: #2980b9;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links a.current-spot {
+    background: #28a745;
+    color: white;
+    border: 2px solid #1e7e34;
+    font-weight: bold;
+}
+
+.nav-links a.current-spot:hover {
+    background: #1e7e34;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.next-page-button {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.next-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+}
+
+.next-button:hover {
+    background: #c0392b;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .header-image h1 {
+        font-size: 2.5rem;
+    }
+    
+    .intro {
+        padding: 25px;
+    }
+    
+    .intro h2 {
+        font-size: 1.8rem;
+    }
+    
+    .spot-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .spot-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-image {
+        height: 300px;
+    }
+    
+    .header-image h1 {
+        font-size: 2rem;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雷峰夕照 - 西湖十景</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+        }
+        
+        .spot-detail {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+        }
+        
+        .spot-detail h1 {
+            color: #2c5aa0;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .spot-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        
+        .spot-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .spot-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .spot-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .spot-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← 返回主页</a>
+        
+        <div class="spot-navigation">
+            <h3>西湖十景</h3>
+            <div class="nav-links">
+                <a href="sudichunxiao.html">苏堤春晓</a>
+                <a href="quyuanfenghe.html">曲院风荷</a>
+                <a href="pinghuqiuyue.html">平湖秋月</a>
+                <a href="duanqiaocanxue.html">断桥残雪</a>
+                <a href="huagangguanyu.html">花港观鱼</a>
+                <a href="liulangwenying.html">柳浪闻莺</a>
+                <a href="santanyinyue.html">三潭印月</a>
+                <a href="shuangfengchayun.html">双峰插云</a>
+                <a href="leifengxizhao.html" class="current-spot">雷峰夕照</a>
+                <a href="nanpingwanzhong.html">南屏晚钟</a>
+            </div>
+        </div>
+        
+        <div class="spot-detail">
+            <h1>雷峰夕照</h1>
+            
+            <div class="spot-content">
+                <div class="spot-text">
+                    <p>雷峰夕照是西湖十景中最富传奇色彩的景观，位于西湖南岸的夕照山上，因民间故事《白蛇传》而闻名于世。雷峰塔始建于五代吴越国时期(977年)，是吴越国王钱俶为祈求国泰民安而建。原塔于1924年倒塌，现存雷峰塔为2002年重建。</p>
+                    
+                    <p>雷峰塔为八角形楼阁式塔，通高71.679米，由台基、塔身和塔刹三部分组成。台基高9.8米，塔身高45.8米，塔刹高16.1米。塔身采用钢结构，外饰铜瓦，整体造型古朴典雅，既保留了传统塔的建筑风格，又融入了现代建筑技术。</p>
+                    
+                    <p>观赏雷峰夕照的最佳时间是傍晚日落时分。当夕阳西下，余晖洒在雷峰塔上，塔身呈现出金黄色的光辉，与西湖的碧水、远山的青黛形成鲜明的对比，构成了一幅壮丽的画面。此时站在湖对岸的北山街或白堤上观赏，景色最为迷人。</p>
+                    
+                    <p>雷峰塔不仅是一处景观，更承载着丰富的文化内涵。它是《白蛇传》中白娘子被法海镇压的地方，这个凄美的爱情故事为雷峰塔增添了神秘的色彩。历代文人墨客在此留下了许多诗词佳作，如"雷峰夕照"的诗句等。</p>
+                    
+                    <p>现在的雷峰塔内设有电梯，游客可以直达塔顶，俯瞰西湖全景。塔内还陈列着原雷峰塔的遗址和出土文物，包括佛经、佛像、舍利子等珍贵文物，是了解雷峰塔历史和文化的好去处。</p>
+                </div>
+                
+                <div class="spot-images">
+                    <img src="雷锋夕照.webp" alt="雷峰夕照景色1" class="spot-image">
+                    <img src="雷锋夕照2.jfif" alt="雷峰夕照景色2" class="spot-image">
+                    <img src="雷锋夕照3.png" alt="雷峰夕照景色3" class="spot-image">
+                    <img src="雷锋夕照4.jfif" alt="雷峰夕照景色4" class="spot-image">
+                </div>
+            </div>
+        </div>
+        
+        <div class="next-page-button">
+            <a href="nanpingwanzhong.html" class="next-button">下一页：南屏晚钟 →</a>
+        </div>
+    </div>
+</body>
+</html>
